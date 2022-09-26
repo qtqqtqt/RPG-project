@@ -71,7 +71,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1172905977, guid: 750e3c6876a501e42b5827ec7a3d24d1, type: 3}
       propertyPath: m_Speed
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1172905977, guid: 750e3c6876a501e42b5827ec7a3d24d1, type: 3}
       propertyPath: m_Height
@@ -191,6 +191,7 @@ MonoBehaviour:
   patrolPath: {fileID: 0}
   waypointTolerance: 1
   waypointDwellTime: 3
+  patrolSpeedFraction: 0.4
 --- !u!114 &4869708733900857438
 MonoBehaviour:
   m_ObjectHideFlags: 0
