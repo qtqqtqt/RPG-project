@@ -117,6 +117,7 @@
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/Code/PlayerInputController.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Code/Actions/Movement/MovementActionHandler.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Code/Lookups/AnimationParameters.cs" />
+    <Compile Include="Assets/Scripts/Cinematics/CinematicTrigger.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Code/Actions/Movement/Move.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/Code/PlayerCamera.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Code/Lookups/Animations/DiveRollType.cs" />
@@ -126,6 +127,7 @@
     <Compile Include="Assets/Scripts/Combat/CombatTarget.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/BruteForceMesh.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Code/CoroutineQueue.cs" />
+    <Compile Include="Assets/Scripts/Cinematics/CinematicControlsRemover.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Code/Actions/Movement/DoubleJump.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Code/Actions/Movement/GetHit.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Code/RPGCharacterWeaponController.cs" />
@@ -135,8 +137,9 @@
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Code/Actions/ActionHandler.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Code/Lookups/Animations/KnockbackType.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Code/RPGCharacterController.cs" />
-    <Compile Include="Assets/Scripts/Cinematics/CinematicTrigger.cs" />
-    <Compile Include="Assets/Scripts/Cinematics/CinematicControlsRemover.cs" />
+    <Compile Include="Assets/Scripts/SceneManagement/Portal.cs" />
+    <Compile Include="Assets/Scripts/SceneManagement/Fader.cs" />
+    <Compile Include="Assets/Scripts/Core/PersistentObjectsSpawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Asset Packs/NEW/Five Seamless Tileable Ground Textures/read me.txt" />

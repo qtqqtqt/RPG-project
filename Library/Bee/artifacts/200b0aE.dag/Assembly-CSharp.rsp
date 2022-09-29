@@ -438,7 +438,10 @@
 "Assets/Scripts/Core/FollowCamera.cs"
 "Assets/Scripts/Core/Health.cs"
 "Assets/Scripts/Core/IAction.cs"
+"Assets/Scripts/Core/PersistentObjectsSpawner.cs"
 "Assets/Scripts/Movement/Mover.cs"
+"Assets/Scripts/SceneManagement/Fader.cs"
+"Assets/Scripts/SceneManagement/Portal.cs"
 -langversion:9.0
 
 /deterministic

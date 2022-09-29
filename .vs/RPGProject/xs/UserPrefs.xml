@@ -1,12 +1,37 @@
 ﻿<Properties StartupConfiguration="{21BD93AE-C013-11DB-C887-5DF3656E048C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Control/PlayerController.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Cinematics/CinematicControlsRemover.cs">
     <Files>
-      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="23" Column="10" />
+      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="55" Column="72" />
+      <File FileName="Assets/Scripts/Control/PatrolPath.cs" Line="25" Column="14" />
+      <File FileName="Assets/Scripts/Control/AIController.cs" Line="22" Column="21" />
+      <File FileName="Assets/Scripts/Movement/Mover.cs" Line="24" Column="53" />
+      <File FileName="Assets/Scripts/Cinematics/CinematicTrigger.cs" Line="16" Column="41" />
+      <File FileName="Assets/Scripts/Core/FollowCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Core/IAction.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Core/ActionScheduler.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Cinematics/CinematicControlsRemover.cs" Line="20" Column="55" />
+      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="80" Column="44" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="RPGProject" expanded="True" selected="True" />
+          <Node name="RPGProject" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Cinematics" expanded="True">
+                  <Node name="CinematicControlsRemover.cs" selected="True" />
+                </Node>
+                <Node name="Combat" expanded="True" />
+                <Node name="Control" expanded="True" />
+                <Node name="Core" expanded="True" />
+                <Node name="Movement" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -19,11 +44,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="feb6f5c0-71b8-45d1-9513-23baf203cc7c" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="69cbb72b-ec2b-4c54-ba7f-d02788f9a186" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
