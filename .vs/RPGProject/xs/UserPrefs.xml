@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{21BD93AE-C013-11DB-C887-5DF3656E048C}|">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="75de5aa8-64c1-4674-86af-c23b9933de14" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Combat/WeaponPickup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Stats/Progression.cs">
     <Files>
-      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="23" Column="44" />
-      <File FileName="Assets/Scripts/Combat/Weapon.cs" Line="16" Column="1" />
-      <File FileName="Assets/Scripts/Combat/Projectile.cs" Line="57" Column="33" />
-      <File FileName="Assets/Scripts/Core/DestroyAfterEffect.cs" Line="13" Column="37" />
-      <File FileName="Assets/Scripts/Combat/WeaponPickup.cs" Line="32" Column="14" />
+      <File FileName="Assets/Scripts/Attributes/Health.cs" Line="12" Column="1" />
+      <File FileName="Assets/Scripts/Stats/BaseStats.cs" Line="13" Column="1" />
+      <File FileName="Assets/Scripts/Stats/Progression.cs" Line="31" Column="10" />
+      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="59" Column="65" />
+      <File FileName="Assets/Scripts/Attributes/Experience.cs" Line="14" Column="10" />
+      <File FileName="Assets/Scripts/Combat/EnemyHealthDisplay.cs" Line="31" Column="95" />
+      <File FileName="Assets/Scripts/Stats/Stats.cs" Line="7" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,15 +22,17 @@
                 </Node>
               </Node>
               <Node name="Scripts" expanded="True">
+                <Node name="Attributes" expanded="True" />
                 <Node name="Cinematics" expanded="True" />
-                <Node name="Combat" expanded="True">
-                  <Node name="WeaponPickup.cs" selected="True" />
-                </Node>
+                <Node name="Combat" expanded="True" />
                 <Node name="Control" expanded="True" />
                 <Node name="Core" expanded="True" />
                 <Node name="Movement" expanded="True" />
                 <Node name="Saving" expanded="True" />
                 <Node name="SceneManagement" expanded="True" />
+                <Node name="Stats" expanded="True">
+                  <Node name="Progression.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -46,9 +48,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7ef9ef1f-614f-4aff-b596-c3ceae953974" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

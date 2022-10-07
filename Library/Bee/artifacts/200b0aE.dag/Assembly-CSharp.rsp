@@ -373,9 +373,13 @@
 "Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/SuperStateMachine.cs"
 "Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/DebugDraw.cs"
 "Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Math3d.cs"
+"Assets/Scripts/Attributes/Experience.cs"
+"Assets/Scripts/Attributes/Health.cs"
+"Assets/Scripts/Attributes/HealthDisplay.cs"
 "Assets/Scripts/Cinematics/CinematicControlsRemover.cs"
 "Assets/Scripts/Cinematics/CinematicTrigger.cs"
 "Assets/Scripts/Combat/CombatTarget.cs"
+"Assets/Scripts/Combat/EnemyHealthDisplay.cs"
 "Assets/Scripts/Combat/Fighter.cs"
 "Assets/Scripts/Combat/Projectile.cs"
 "Assets/Scripts/Combat/Weapon.cs"
@@ -386,7 +390,6 @@
 "Assets/Scripts/Core/ActionScheduler.cs"
 "Assets/Scripts/Core/DestroyAfterEffect.cs"
 "Assets/Scripts/Core/FollowCamera.cs"
-"Assets/Scripts/Core/Health.cs"
 "Assets/Scripts/Core/IAction.cs"
 "Assets/Scripts/Core/PersistentObjectsSpawner.cs"
 "Assets/Scripts/Movement/Mover.cs"
@@ -397,6 +400,10 @@
 "Assets/Scripts/SceneManagement/Fader.cs"
 "Assets/Scripts/SceneManagement/Portal.cs"
 "Assets/Scripts/SceneManagement/SavingWrapper.cs"
+"Assets/Scripts/Stats/BaseStats.cs"
+"Assets/Scripts/Stats/CharacterClass.cs"
+"Assets/Scripts/Stats/Progression.cs"
+"Assets/Scripts/Stats/Stats.cs"
 -langversion:9.0
 
 /deterministic
