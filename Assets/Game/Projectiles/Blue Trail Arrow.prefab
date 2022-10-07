@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5609601394790225993
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 586883354525577346, guid: 6dca2cc4ef2374519822497f60d08d74,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 586883354525577346, guid: 6dca2cc4ef2374519822497f60d08d74,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 586883354525577346, guid: 6dca2cc4ef2374519822497f60d08d74,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 586883354525577346, guid: 6dca2cc4ef2374519822497f60d08d74,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 586883354525577346, guid: 6dca2cc4ef2374519822497f60d08d74,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 586883354525577346, guid: 6dca2cc4ef2374519822497f60d08d74,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 586883354525577346, guid: 6dca2cc4ef2374519822497f60d08d74,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 586883354525577346, guid: 6dca2cc4ef2374519822497f60d08d74,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 586883354525577346, guid: 6dca2cc4ef2374519822497f60d08d74,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 586883354525577346, guid: 6dca2cc4ef2374519822497f60d08d74,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 586883354525577346, guid: 6dca2cc4ef2374519822497f60d08d74,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618861273858996732, guid: 6dca2cc4ef2374519822497f60d08d74,
+        type: 3}
+      propertyPath: isHoming
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618861273858996732, guid: 6dca2cc4ef2374519822497f60d08d74,
+        type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 1898727914339087661, guid: 0e30dac84134f46688e6088c14a2092a,
+        type: 3}
+    - target: {fileID: 2804756808367805122, guid: 6dca2cc4ef2374519822497f60d08d74,
+        type: 3}
+      propertyPath: m_Name
+      value: Blue Trail Arrow
+      objectReference: {fileID: 0}
+    - target: {fileID: 7833333890678340434, guid: 6dca2cc4ef2374519822497f60d08d74,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.b
+      value: 0.9622642
+      objectReference: {fileID: 0}
+    - target: {fileID: 7833333890678340434, guid: 6dca2cc4ef2374519822497f60d08d74,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.g
+      value: 0.7416291
+      objectReference: {fileID: 0}
+    - target: {fileID: 7833333890678340434, guid: 6dca2cc4ef2374519822497f60d08d74,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.r
+      value: 0.24056605
+      objectReference: {fileID: 0}
+    - target: {fileID: 7833333890678340434, guid: 6dca2cc4ef2374519822497f60d08d74,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.b
+      value: 0.9811321
+      objectReference: {fileID: 0}
+    - target: {fileID: 7833333890678340434, guid: 6dca2cc4ef2374519822497f60d08d74,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.g
+      value: 0.9811321
+      objectReference: {fileID: 0}
+    - target: {fileID: 7833333890678340434, guid: 6dca2cc4ef2374519822497f60d08d74,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.r
+      value: 0.9811321
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6dca2cc4ef2374519822497f60d08d74, type: 3}

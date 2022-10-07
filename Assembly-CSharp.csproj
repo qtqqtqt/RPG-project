@@ -78,6 +78,7 @@
     <Compile Include="Assets/Scripts/SceneManagement/Portal.cs" />
     <Compile Include="Assets/Scripts/Core/Health.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/SuperMath.cs" />
+    <Compile Include="Assets/Scripts/Combat/Weapon.cs" />
     <Compile Include="Assets/Scripts/Control/AIController.cs" />
     <Compile Include="Assets/Scripts/Movement/Mover.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/SuperCollider.cs" />
@@ -87,14 +88,17 @@
     <Compile Include="Assets/Scripts/Cinematics/CinematicTrigger.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/Code/PlayerCamera.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/DebugDraw.cs" />
+    <Compile Include="Assets/Scripts/Combat/WeaponPickup.cs" />
     <Compile Include="Assets/Scripts/Combat/CombatTarget.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/BruteForceMesh.cs" />
     <Compile Include="Assets/Scripts/Cinematics/CinematicControlsRemover.cs" />
+    <Compile Include="Assets/Scripts/Core/DestroyAfterEffect.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/SuperCharacterController.cs" />
-    <Compile Include="Assets/Scripts/Combat/Weapon.cs" />
-    <Compile Include="Assets/Scripts/Combat/WeaponPickup.cs" />
+    <Compile Include="Assets/Scripts/Combat/Projectile.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets/Asset Packs/SimpleFX/Materials/UnlitVertexColour_Alpha.shader" />
+    <None Include="Assets/Asset Packs/Animations by Explosive/README - Usage Rights for these assets 1.txt" />
     <None Include="Assets/Asset Packs/NEW/Five Seamless Tileable Ground Textures/read me.txt" />
     <None Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/README.txt" />
   </ItemGroup>
