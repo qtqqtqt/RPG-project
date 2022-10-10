@@ -875,7 +875,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 854010130}
-  m_LocalRotation: {x: -0.21541558, y: 0.78443545, z: -0.40253022, w: -0.4197936}
+  m_LocalRotation: {x: -0.21541558, y: 0.78443545, z: -0.40253025, w: -0.4197936}
   m_LocalPosition: {x: 0.085323334, y: 6.3077784, z: -3.252614}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1177,24 +1177,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 991823697}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1069105640 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1069105640, guid: 0f31f3774f1d440f3bfb062f0de69e33,
-    type: 3}
-  m_PrefabInstance: {fileID: 8401415413062114066}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1069105645
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1069105640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4a7d0efaf6844474abcc1d0c6d6e548, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1105453057
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2865,7 +2847,7 @@ PrefabInstance:
     - target: {fileID: 1803024521886560345, guid: 822ad1492b42d42d2bd7584f200b8f33,
         type: 3}
       propertyPath: startingLevel
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3818992119546077940, guid: 822ad1492b42d42d2bd7584f200b8f33,
         type: 3}
@@ -3220,6 +3202,11 @@ PrefabInstance:
     - target: {fileID: 4348410684917534, guid: 0f31f3774f1d440f3bfb062f0de69e33, type: 3}
       propertyPath: m_Name
       value: HUD
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118991990273625216, guid: 0f31f3774f1d440f3bfb062f0de69e33,
+        type: 3}
+      propertyPath: m_text
+      value: 'Lvl:'
       objectReference: {fileID: 0}
     - target: {fileID: 6523910831193747218, guid: 0f31f3774f1d440f3bfb062f0de69e33,
         type: 3}

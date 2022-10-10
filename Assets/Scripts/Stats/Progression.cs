@@ -8,19 +8,46 @@ namespace RPG.Stats
     {
         [SerializeField] ProgressionCharacterClass[] characterClasses = null;
 
-        public float GetHealth(CharacterClass characterClass, int level)
+        Dictionary<CharacterClass, Dictionary<Stat, float[]>> lookupTable = null;
+
+        public float GetStat(Stat stat, CharacterClass characterClass, int level)
         {
-            float characterHealth = 0;
+            BuildLookup();
+            float[] levels = lookupTable[characterClass][stat];
+
+            if (levels.Length < level)
+            {
+                return 0;
+            }
+
+            return levels[level - 1];
+        }
+
+        public int GetLevels(Stat stat, CharacterClass characterClass)
+        {
+            BuildLookup();
+
+            float[] levels = lookupTable[characterClass][stat];
+            return levels.Length;
+        }
+
+        private void BuildLookup()
+        {
+            if (lookupTable != null) return;
+
+            lookupTable = new Dictionary<CharacterClass, Dictionary<Stat, float[]>>();
 
             foreach (ProgressionCharacterClass characterProgression in characterClasses)
             {
-                if (characterProgression.characterClass == characterClass)
-                {
-                   // characterHealth = characterProgression.health[level - 1]; 
-                }
-            }
+                var statLookupTable = new Dictionary<Stat, float[]>();
 
-            return characterHealth;
+                foreach (ProgressionStat progressionStat in characterProgression.stats)
+                {
+                    statLookupTable[progressionStat.stat] = progressionStat.levels;
+                }
+
+                lookupTable[characterProgression.characterClass] = statLookupTable;
+            }
         }
 
         [System.Serializable]
@@ -34,7 +61,7 @@ namespace RPG.Stats
         class ProgressionStat
         {
             public Stat stat;
-            public float[] level;
+            public float[] levels;
         }
     }
 }

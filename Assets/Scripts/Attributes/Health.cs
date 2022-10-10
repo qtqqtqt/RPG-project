@@ -7,13 +7,16 @@ namespace RPG.Attributes
 {
     public class Health : MonoBehaviour, ISaveable
     {
-        [SerializeField] float healthPoints = 100f;
-
+        float healthPoints = -1f;
         bool isDead = false;
 
         private void Start()
         {
-            healthPoints = GetComponent<BaseStats>().GetHealth();
+            GetComponent<BaseStats>().onLevelUp += SetToMax;
+            if (healthPoints < 0)
+            {
+                SetToMax();
+            }
         }
 
         public bool IsDead()
@@ -21,19 +24,34 @@ namespace RPG.Attributes
             return isDead;
         }
 
+        private void SetToMax()
+        {
+            healthPoints = GetMaxHealthPoints();
+        }
+
         public void TakeDamage(GameObject instigator, float damage)
         {
             healthPoints = Mathf.Max(healthPoints - damage, 0);
-            if(healthPoints == 0)
+            if (healthPoints == 0)
             {
                 Die();
                 AwardExperience(instigator);
             }
         }
 
+        public float GetHealthPoints()
+        {
+            return healthPoints;
+        }
+
+        public float GetMaxHealthPoints()
+        {
+            return GetComponent<BaseStats>().GetStat(Stat.Health);
+        }
+
         public float GetPercentage()
         {
-            return healthPoints / GetComponent<BaseStats>().GetHealth() * 100f;
+            return healthPoints / GetComponent<BaseStats>().GetStat(Stat.Health) * 100f;
         }
 
         private void Die()
@@ -49,7 +67,7 @@ namespace RPG.Attributes
         {
             Experience experience = instigator.GetComponent<Experience>();
             if (experience == null) return;
-            experience.GainExperience(GetComponent<BaseStats>().GetExperienceReward());
+            experience.GainExperience(GetComponent<BaseStats>().GetStat(Stat.ExperienceReward));
         }
 
 

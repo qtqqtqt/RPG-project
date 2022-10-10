@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/Saving/ISaveable.cs" />
+    <Compile Include="Assets/Scripts/Stats/BaseStats.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/Code/Gravity.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/Code/PlayerMachineDebug.cs" />
     <Compile Include="Assets/Scripts/SceneManagement/SavingWrapper.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="Assets/Scripts/Saving/SerializableVector3.cs" />
     <Compile Include="Assets/Scripts/Core/IAction.cs" />
     <Compile Include="Assets/Scripts/Core/ActionScheduler.cs" />
+    <Compile Include="Assets/Scripts/Stats/Progression.cs" />
     <Compile Include="Assets/Scripts/SceneManagement/Fader.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/SuperStateMachine.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/Code/SimpleStateMachine.cs" />
@@ -91,17 +93,17 @@
     <Compile Include="Assets/Scripts/Combat/WeaponPickup.cs" />
     <Compile Include="Assets/Scripts/Combat/CombatTarget.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/BruteForceMesh.cs" />
-    <Compile Include="Assets/Scripts/Cinematics/CinematicControlsRemover.cs" />
-    <Compile Include="Assets/Scripts/Core/DestroyAfterEffect.cs" />
-    <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/SuperCharacterController.cs" />
-    <Compile Include="Assets/Scripts/Combat/Projectile.cs" />
-    <Compile Include="Assets/Scripts/Stats/BaseStats.cs" />
-    <Compile Include="Assets/Scripts/Stats/CharacterClass.cs" />
-    <Compile Include="Assets/Scripts/Stats/Progression.cs" />
-    <Compile Include="Assets/Scripts/Attributes/HealthDisplay.cs" />
-    <Compile Include="Assets/Scripts/Combat/EnemyHealthDisplay.cs" />
-    <Compile Include="Assets/Scripts/Attributes/Experience.cs" />
     <Compile Include="Assets/Scripts/Stats/Stats.cs" />
+    <Compile Include="Assets/Scripts/Attributes/HealthDisplay.cs" />
+    <Compile Include="Assets/Scripts/Cinematics/CinematicControlsRemover.cs" />
+    <Compile Include="Assets/Scripts/Stats/CharacterClass.cs" />
+    <Compile Include="Assets/Scripts/Core/DestroyAfterEffect.cs" />
+    <Compile Include="Assets/Scripts/Combat/EnemyHealthDisplay.cs" />
+    <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/SuperCharacterController.cs" />
+    <Compile Include="Assets/Scripts/Stats/Experience.cs" />
+    <Compile Include="Assets/Scripts/Combat/Projectile.cs" />
+    <Compile Include="Assets/Scripts/Stats/ExperienceDisplay.cs" />
+    <Compile Include="Assets/Scripts/Stats/LevelDisplay.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

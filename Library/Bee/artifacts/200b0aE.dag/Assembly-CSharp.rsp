@@ -373,7 +373,6 @@
 "Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/SuperStateMachine.cs"
 "Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/DebugDraw.cs"
 "Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Math3d.cs"
-"Assets/Scripts/Attributes/Experience.cs"
 "Assets/Scripts/Attributes/Health.cs"
 "Assets/Scripts/Attributes/HealthDisplay.cs"
 "Assets/Scripts/Cinematics/CinematicControlsRemover.cs"
@@ -402,6 +401,9 @@
 "Assets/Scripts/SceneManagement/SavingWrapper.cs"
 "Assets/Scripts/Stats/BaseStats.cs"
 "Assets/Scripts/Stats/CharacterClass.cs"
+"Assets/Scripts/Stats/Experience.cs"
+"Assets/Scripts/Stats/ExperienceDisplay.cs"
+"Assets/Scripts/Stats/LevelDisplay.cs"
 "Assets/Scripts/Stats/Progression.cs"
 "Assets/Scripts/Stats/Stats.cs"
 -langversion:9.0
