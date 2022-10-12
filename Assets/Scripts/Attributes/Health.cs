@@ -12,11 +12,20 @@ namespace RPG.Attributes
 
         private void Start()
         {
-            GetComponent<BaseStats>().onLevelUp += SetToMax;
             if (healthPoints < 0)
             {
                 SetToMax();
             }
+        }
+
+        private void OnEnable()
+        {
+            GetComponent<BaseStats>().onLevelUp += SetToMax;
+        }
+
+        private void OnDisable()
+        {
+            GetComponent<BaseStats>().onLevelUp -= SetToMax;
         }
 
         public bool IsDead()

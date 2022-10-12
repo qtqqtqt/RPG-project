@@ -403,6 +403,7 @@
 "Assets/Scripts/Stats/CharacterClass.cs"
 "Assets/Scripts/Stats/Experience.cs"
 "Assets/Scripts/Stats/ExperienceDisplay.cs"
+"Assets/Scripts/Stats/IModifierProvider.cs"
 "Assets/Scripts/Stats/LevelDisplay.cs"
 "Assets/Scripts/Stats/Progression.cs"
 "Assets/Scripts/Stats/Stats.cs"
