@@ -70,6 +70,7 @@
     <Compile Include="Assets/Scripts/SceneManagement/Fader.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/SuperStateMachine.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/Code/SimpleStateMachine.cs" />
+    <Compile Include="Assets/Scripts/Stats/IModifierProvider.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/Code/PlayerMachine.cs" />
     <Compile Include="Assets/Scripts/Combat/Fighter.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/SuperCollisionType.cs" />
@@ -87,6 +88,7 @@
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/SuperCollider.cs" />
     <Compile Include="Assets/Scripts/Stats/LevelDisplay.cs" />
     <Compile Include="Assets/Scripts/Core/PersistentObjectsSpawner.cs" />
+    <Compile Include="Assets/Asset Packs/GameDev.tv Assets/Scripts/Utils/LazyValue.cs" />
     <Compile Include="Assets/Scripts/Control/PatrolPath.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/Code/PlayerInputController.cs" />
     <Compile Include="Assets/Scripts/Cinematics/CinematicTrigger.cs" />
@@ -104,7 +106,6 @@
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/SuperCharacterController.cs" />
     <Compile Include="Assets/Scripts/Stats/Experience.cs" />
     <Compile Include="Assets/Scripts/Combat/Projectile.cs" />
-    <Compile Include="Assets/Scripts/Stats/IModifierProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

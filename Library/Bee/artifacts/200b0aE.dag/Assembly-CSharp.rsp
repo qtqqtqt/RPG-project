@@ -358,6 +358,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/Asset Packs/GameDev.tv Assets/Scripts/Utils/LazyValue.cs"
 "Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/Code/Gravity.cs"
 "Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/Code/PlayerCamera.cs"
 "Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/Code/PlayerInputController.cs"

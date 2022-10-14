@@ -1,3 +1,4 @@
+using GameDevTV.Utils;
 using RPG.Core;
 using RPG.Saving;
 using RPG.Stats;
@@ -7,15 +8,17 @@ namespace RPG.Attributes
 {
     public class Health : MonoBehaviour, ISaveable
     {
-        float healthPoints = -1f;
+        LazyValue<float> healthPoints;
         bool isDead = false;
+
+        private void Awake()
+        {
+            healthPoints = new LazyValue<float>(GetMaxHealthPoints);
+        }
 
         private void Start()
         {
-            if (healthPoints < 0)
-            {
-                SetToMax();
-            }
+            healthPoints.ForceInit();
         }
 
         private void OnEnable()
@@ -35,13 +38,13 @@ namespace RPG.Attributes
 
         private void SetToMax()
         {
-            healthPoints = GetMaxHealthPoints();
+            healthPoints.value = GetMaxHealthPoints();
         }
 
         public void TakeDamage(GameObject instigator, float damage)
         {
-            healthPoints = Mathf.Max(healthPoints - damage, 0);
-            if (healthPoints == 0)
+            healthPoints.value = Mathf.Max(healthPoints.value - damage, 0);
+            if (healthPoints.value == 0)
             {
                 Die();
                 AwardExperience(instigator);
@@ -50,7 +53,7 @@ namespace RPG.Attributes
 
         public float GetHealthPoints()
         {
-            return healthPoints;
+            return healthPoints.value;
         }
 
         public float GetMaxHealthPoints()
@@ -60,7 +63,7 @@ namespace RPG.Attributes
 
         public float GetPercentage()
         {
-            return healthPoints / GetComponent<BaseStats>().GetStat(Stat.Health) * 100f;
+            return healthPoints.value / GetComponent<BaseStats>().GetStat(Stat.Health) * 100f;
         }
 
         private void Die()
@@ -82,14 +85,14 @@ namespace RPG.Attributes
 
         public object CaptureState()
         {
-            return healthPoints;
+            return healthPoints.value;
         }
 
         public void RestoreState(object state)
         {
-            healthPoints = (float)state;
+            healthPoints.value = (float)state;
 
-            if (healthPoints <= 0)
+            if (healthPoints.value <= 0)
             {
                 Die();
             }

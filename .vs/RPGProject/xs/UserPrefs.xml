@@ -1,46 +1,13 @@
 ﻿<Properties StartupConfiguration="{21BD93AE-C013-11DB-C887-5DF3656E048C}|">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e801268a-2d54-466c-ab24-58d8287501e4" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Attributes/Health.cs">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8bc2a070-8567-470f-a84e-e4f0ddca0960" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Control/PlayerController.cs">
     <Files>
-      <File FileName="Assets/Scripts/Stats/Progression.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Stats/BaseStats.cs" Line="38" Column="10" />
-      <File FileName="Assets/Scripts/Saving/SaveableEntity.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SceneManagement/SavingWrapper.cs" Line="24" Column="51" />
-      <File FileName="Assets/Scripts/Saving/SavingSystem.cs" Line="19" Column="17" />
-      <File FileName="Assets/Scripts/Movement/Mover.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Control/AIController.cs" Line="38" Column="10" />
-      <File FileName="Assets/Scripts/Attributes/Health.cs" Line="28" Column="50" />
-      <File FileName="Assets/Scripts/Attributes/HealthDisplay.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Cinematics/CinematicControlsRemover.cs" Line="33" Column="1" />
-      <File FileName="Assets/Scripts/Cinematics/CinematicTrigger.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Combat/CombatTarget.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Combat/EnemyHealthDisplay.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Combat/Projectile.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Combat/Weapon.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Combat/WeaponPickup.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Control/PatrolPath.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="16" Column="1" />
-      <File FileName="Assets/Scripts/Core/ActionScheduler.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Core/DestroyAfterEffect.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Core/FollowCamera.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Core/IAction.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Core/PersistentObjectsSpawner.cs" Line="23" Column="37" />
-      <File FileName="Assets/Scripts/Saving/ISaveable.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Saving/SerializableVector3.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SceneManagement/Fader.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SceneManagement/Portal.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Stats/CharacterClass.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Stats/Experience.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Stats/ExperienceDisplay.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Stats/IModifierProvider.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Stats/LevelDisplay.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Stats/Stats.cs" Line="1" Column="1" />
+      <File FileName="Assets/Asset Packs/GameDev.tv Assets/Scripts/Utils/LazyValue.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Attributes/Health.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="162" Column="1" />
+      <File FileName="Assets/Scripts/Control/AIController.cs" Line="78" Column="55" />
+      <File FileName="Assets/Game/Core/Progression.asset" Line="99" Column="10" />
+      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="84" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -48,6 +15,11 @@
           <Node name="RPGProject" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Asset Packs" expanded="True">
+                <Node name="GameDev.tv Assets" expanded="True">
+                  <Node name="Scripts" expanded="True">
+                    <Node name="Utils" expanded="True" />
+                  </Node>
+                </Node>
                 <Node name="NEW" expanded="True">
                   <Node name="ExplosiveLLC" expanded="True">
                     <Node name="RPG Character Mecanim Animation Pack FREE" expanded="True" />
@@ -55,9 +27,7 @@
                 </Node>
               </Node>
               <Node name="Scripts" expanded="True">
-                <Node name="Attributes" expanded="True">
-                  <Node name="Health.cs" selected="True" />
-                </Node>
+                <Node name="Attributes" expanded="True" />
                 <Node name="Cinematics" expanded="True" />
                 <Node name="Combat" expanded="True" />
                 <Node name="Control" expanded="True" />
@@ -81,5 +51,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
