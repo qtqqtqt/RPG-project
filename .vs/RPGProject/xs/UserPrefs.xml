@@ -1,13 +1,18 @@
 ﻿<Properties StartupConfiguration="{21BD93AE-C013-11DB-C887-5DF3656E048C}|">
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8bc2a070-8567-470f-a84e-e4f0ddca0960" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Control/PlayerController.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Attributes/HealthBar.cs">
     <Files>
-      <File FileName="Assets/Asset Packs/GameDev.tv Assets/Scripts/Utils/LazyValue.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Attributes/Health.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="162" Column="1" />
-      <File FileName="Assets/Scripts/Control/AIController.cs" Line="78" Column="55" />
-      <File FileName="Assets/Game/Core/Progression.asset" Line="99" Column="10" />
-      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="84" Column="10" />
+      <File FileName="Assets/Scripts/UI/DamageText/DamageText.cs" Line="19" Column="29" />
+      <File FileName="Assets/Scripts/UI/DamageText/DamageTextSpawner.cs" Line="14" Column="55" />
+      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Attributes/Health.cs" Line="77" Column="35" />
+      <File FileName="Assets/Scripts/Stats/LevelDisplay.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Attributes/HealthDisplay.cs" Line="23" Column="1" />
+      <File FileName="Assets/Scripts/Attributes/HealthBar.cs" Line="27" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -27,7 +32,9 @@
                 </Node>
               </Node>
               <Node name="Scripts" expanded="True">
-                <Node name="Attributes" expanded="True" />
+                <Node name="Attributes" expanded="True">
+                  <Node name="HealthBar.cs" selected="True" />
+                </Node>
                 <Node name="Cinematics" expanded="True" />
                 <Node name="Combat" expanded="True" />
                 <Node name="Control" expanded="True" />
@@ -36,6 +43,9 @@
                 <Node name="Saving" expanded="True" />
                 <Node name="SceneManagement" expanded="True" />
                 <Node name="Stats" expanded="True" />
+                <Node name="UI" expanded="True">
+                  <Node name="DamageText" expanded="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -51,10 +61,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="38d62a0a-fefe-43d3-b347-17e184f22c4c" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -108,6 +108,10 @@
     <Compile Include="Assets/Scripts/Combat/Projectile.cs" />
     <Compile Include="Assets/Scripts/Control/IRaycastable.cs" />
     <Compile Include="Assets/Scripts/Control/CursorType.cs" />
+    <Compile Include="Assets/Scripts/Core/CameraFacing.cs" />
+    <Compile Include="Assets/Scripts/UI/DamageText/DamageText.cs" />
+    <Compile Include="Assets/Scripts/UI/DamageText/DamageTextSpawner.cs" />
+    <Compile Include="Assets/Scripts/Attributes/HealthBar.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
