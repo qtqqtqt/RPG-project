@@ -385,6 +385,8 @@
 "Assets/Scripts/Combat/Weapon.cs"
 "Assets/Scripts/Combat/WeaponPickup.cs"
 "Assets/Scripts/Control/AIController.cs"
+"Assets/Scripts/Control/CursorType.cs"
+"Assets/Scripts/Control/IRaycastable.cs"
 "Assets/Scripts/Control/PatrolPath.cs"
 "Assets/Scripts/Control/PlayerController.cs"
 "Assets/Scripts/Core/ActionScheduler.cs"

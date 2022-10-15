@@ -106,6 +106,8 @@
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/SuperCharacterController.cs" />
     <Compile Include="Assets/Scripts/Stats/Experience.cs" />
     <Compile Include="Assets/Scripts/Combat/Projectile.cs" />
+    <Compile Include="Assets/Scripts/Control/IRaycastable.cs" />
+    <Compile Include="Assets/Scripts/Control/CursorType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
