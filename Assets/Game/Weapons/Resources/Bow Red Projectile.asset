@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponOverrideController: {fileID: 22100000, guid: 75d1cccd7b4f745098a365f765d8cf43,
     type: 2}
-  equippedPrefab: {fileID: 7944429841713350067, guid: cd8597fd13b4048b78abb809290964aa,
+  equippedPrefab: {fileID: -6291130049455088738, guid: cd8597fd13b4048b78abb809290964aa,
     type: 3}
   weaponDamage: 5
   damagePercantageBonus: 15

@@ -60,17 +60,21 @@
     <Compile Include="Assets/Scripts/Stats/BaseStats.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/Code/Gravity.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/Code/PlayerMachineDebug.cs" />
+    <Compile Include="Assets/Scripts/Attributes/HealthBar.cs" />
     <Compile Include="Assets/Scripts/SceneManagement/SavingWrapper.cs" />
     <Compile Include="Assets/Scripts/Control/PlayerController.cs" />
     <Compile Include="Assets/Scripts/Saving/SavingSystem.cs" />
     <Compile Include="Assets/Scripts/Saving/SerializableVector3.cs" />
     <Compile Include="Assets/Scripts/Core/IAction.cs" />
+    <Compile Include="Assets/Scripts/UI/DamageText/DamageTextSpawner.cs" />
     <Compile Include="Assets/Scripts/Core/ActionScheduler.cs" />
     <Compile Include="Assets/Scripts/Stats/Progression.cs" />
     <Compile Include="Assets/Scripts/SceneManagement/Fader.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/SuperStateMachine.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/Code/SimpleStateMachine.cs" />
+    <Compile Include="Assets/Scripts/Core/CameraFacing.cs" />
     <Compile Include="Assets/Scripts/Stats/IModifierProvider.cs" />
+    <Compile Include="Assets/Scripts/UI/DamageText/DamageText.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/Code/PlayerMachine.cs" />
     <Compile Include="Assets/Scripts/Combat/Fighter.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/SuperCollisionType.cs" />
@@ -81,7 +85,7 @@
     <Compile Include="Assets/Scripts/SceneManagement/Portal.cs" />
     <Compile Include="Assets/Scripts/Attributes/Health.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/SuperMath.cs" />
-    <Compile Include="Assets/Scripts/Combat/Weapon.cs" />
+    <Compile Include="Assets/Scripts/Combat/WeaponConfig.cs" />
     <Compile Include="Assets/Scripts/Control/AIController.cs" />
     <Compile Include="Assets/Scripts/Movement/Mover.cs" />
     <Compile Include="Assets/Scripts/Stats/ExperienceDisplay.cs" />
@@ -92,6 +96,7 @@
     <Compile Include="Assets/Scripts/Control/PatrolPath.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/Code/PlayerInputController.cs" />
     <Compile Include="Assets/Scripts/Cinematics/CinematicTrigger.cs" />
+    <Compile Include="Assets/Scripts/Control/IRaycastable.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/Code/PlayerCamera.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/DebugDraw.cs" />
     <Compile Include="Assets/Scripts/Combat/WeaponPickup.cs" />
@@ -104,14 +109,10 @@
     <Compile Include="Assets/Scripts/Core/DestroyAfterEffect.cs" />
     <Compile Include="Assets/Scripts/Combat/EnemyHealthDisplay.cs" />
     <Compile Include="Assets/Asset Packs/NEW/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/SuperCharacterController.cs" />
+    <Compile Include="Assets/Scripts/Control/CursorType.cs" />
     <Compile Include="Assets/Scripts/Stats/Experience.cs" />
     <Compile Include="Assets/Scripts/Combat/Projectile.cs" />
-    <Compile Include="Assets/Scripts/Control/IRaycastable.cs" />
-    <Compile Include="Assets/Scripts/Control/CursorType.cs" />
-    <Compile Include="Assets/Scripts/Core/CameraFacing.cs" />
-    <Compile Include="Assets/Scripts/UI/DamageText/DamageText.cs" />
-    <Compile Include="Assets/Scripts/UI/DamageText/DamageTextSpawner.cs" />
-    <Compile Include="Assets/Scripts/Attributes/HealthBar.cs" />
+    <Compile Include="Assets/Scripts/Combat/Weapon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
