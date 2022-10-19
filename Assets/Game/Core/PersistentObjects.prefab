@@ -174,8 +174,27 @@ PrefabInstance:
       propertyPath: fadeInTime
       value: 0.2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5873080493102894637, guid: 31b735fecb3da4cab96f2f447cfecbdc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 31b735fecb3da4cab96f2f447cfecbdc, type: 3}
+--- !u!1 &482797195730823139 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5722312823741733332, guid: 31b735fecb3da4cab96f2f447cfecbdc,
+    type: 3}
+  m_PrefabInstance: {fileID: 5321706974249680439}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6125663593098347559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482797195730823139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36f54b488dbe09c4e8268b5a381890ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &6073212245828138068 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2131014132466289251, guid: 31b735fecb3da4cab96f2f447cfecbdc,

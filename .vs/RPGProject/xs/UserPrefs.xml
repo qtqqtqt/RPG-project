@@ -1,18 +1,17 @@
 ﻿<Properties StartupConfiguration="{21BD93AE-C013-11DB-C887-5DF3656E048C}|">
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="26b71309-0f8a-407c-810b-68eb0e608deb" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Attributes/HealthBar.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Combat/Fighter.cs">
     <Files>
-      <File FileName="Assets/Scripts/UI/DamageText/DamageText.cs" Line="19" Column="29" />
-      <File FileName="Assets/Scripts/UI/DamageText/DamageTextSpawner.cs" Line="14" Column="55" />
-      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Attributes/Health.cs" Line="77" Column="35" />
-      <File FileName="Assets/Scripts/Stats/LevelDisplay.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Attributes/HealthDisplay.cs" Line="23" Column="1" />
-      <File FileName="Assets/Scripts/Attributes/HealthBar.cs" Line="27" Column="1" />
+      <File FileName="Assets/Scripts/Combat/WeaponPickup.cs" Line="22" Column="48" />
+      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="72" Column="26" />
+      <File FileName="Assets/Scripts/Movement/Mover.cs" Line="80" Column="10" />
+      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="106" Column="10" />
+      <File FileName="Assets/Scripts/Control/AIController.cs" Line="142" Column="32" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -32,11 +31,11 @@
                 </Node>
               </Node>
               <Node name="Scripts" expanded="True">
-                <Node name="Attributes" expanded="True">
-                  <Node name="HealthBar.cs" selected="True" />
-                </Node>
+                <Node name="Attributes" expanded="True" />
                 <Node name="Cinematics" expanded="True" />
-                <Node name="Combat" expanded="True" />
+                <Node name="Combat" expanded="True">
+                  <Node name="Fighter.cs" selected="True" />
+                </Node>
                 <Node name="Control" expanded="True" />
                 <Node name="Core" expanded="True" />
                 <Node name="Movement" expanded="True" />
@@ -61,6 +60,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="38d62a0a-fefe-43d3-b347-17e184f22c4c" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
