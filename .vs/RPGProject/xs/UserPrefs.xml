@@ -1,17 +1,14 @@
 ﻿<Properties StartupConfiguration="{21BD93AE-C013-11DB-C887-5DF3656E048C}|">
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="26b71309-0f8a-407c-810b-68eb0e608deb" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Combat/Fighter.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fa326bff-deb9-4704-a51c-8163b9381ff9" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Control/ClickablePickup.cs">
     <Files>
-      <File FileName="Assets/Scripts/Combat/WeaponPickup.cs" Line="22" Column="48" />
-      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="72" Column="26" />
-      <File FileName="Assets/Scripts/Movement/Mover.cs" Line="80" Column="10" />
-      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="106" Column="10" />
-      <File FileName="Assets/Scripts/Control/AIController.cs" Line="142" Column="32" />
+      <File FileName="Assets/Scripts/Control/ClickablePickup.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Control/CursorType.cs" Line="10" Column="19" />
+      <File FileName="Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/Pickup.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="66" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,25 +18,22 @@
               <Node name="Asset Packs" expanded="True">
                 <Node name="GameDev.tv Assets" expanded="True">
                   <Node name="Scripts" expanded="True">
+                    <Node name="Inventories" expanded="True" />
+                    <Node name="Saving" expanded="True" />
+                    <Node name="UI" expanded="True" />
                     <Node name="Utils" expanded="True" />
-                  </Node>
-                </Node>
-                <Node name="NEW" expanded="True">
-                  <Node name="ExplosiveLLC" expanded="True">
-                    <Node name="RPG Character Mecanim Animation Pack FREE" expanded="True" />
                   </Node>
                 </Node>
               </Node>
               <Node name="Scripts" expanded="True">
                 <Node name="Attributes" expanded="True" />
                 <Node name="Cinematics" expanded="True" />
-                <Node name="Combat" expanded="True">
-                  <Node name="Fighter.cs" selected="True" />
+                <Node name="Combat" expanded="True" />
+                <Node name="Control" expanded="True">
+                  <Node name="ClickablePickup.cs" selected="True" />
                 </Node>
-                <Node name="Control" expanded="True" />
                 <Node name="Core" expanded="True" />
                 <Node name="Movement" expanded="True" />
-                <Node name="Saving" expanded="True" />
                 <Node name="SceneManagement" expanded="True" />
                 <Node name="Stats" expanded="True" />
                 <Node name="UI" expanded="True">
@@ -60,5 +54,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

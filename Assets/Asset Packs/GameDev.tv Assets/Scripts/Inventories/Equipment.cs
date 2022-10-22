@@ -36,6 +36,11 @@ namespace GameDevTV.Inventories
             return equippedItems[equipLocation];
         }
 
+        public IEnumerable<EquipLocation> GetPopulatedSlots()
+        {
+            return equippedItems.Keys;
+        }
+
         /// <summary>
         /// Add an item to the given equip location. Do not attempt to equip to
         /// an incompatible slot.
